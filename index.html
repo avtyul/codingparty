@@ -66,9 +66,28 @@
       height: 100%;
     }
 
+    .qr {
+      width: 400px;
+      height: 400px;
+    }
+
     @media (max-width: 1280px) {
       .right {
         display: none;
+      }
+
+      .text {
+        font-size: 24px;
+        white-space: normal;
+      }
+
+      .text_small {
+        font-size: 16px;
+      }
+
+      .qr {
+        width: 100%;
+        height: auto;
       }
     }
   </style>
@@ -88,7 +107,7 @@
           https://www.kodiri.com/play
         </a>
       </p>
-      <img src="static/qr.png" alt="qr" width="400" height="400" />
+      <img class="qr" src="static/qr.png" alt="qr" />
       <span class="text text_small">20 ноября 2019, Mail.ru Group</span>
     </div>
     <div class="inner right">
